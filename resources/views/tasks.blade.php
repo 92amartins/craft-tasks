@@ -4,8 +4,6 @@
 
 @section('content')
 
-    <!-- Bootstrap Boilerplate... -->
-
     <div class="panel-body">
         <!-- Display Validation Errors -->
         @include('common.errors')
@@ -64,7 +62,7 @@
                                         {{ csrf_field() }}
                                         {{ method_field('DELETE') }}
                                         <button type="submit" class="btn btn-danger">
-                                            <i class="fa fa-trash"></i> Delete
+                                            <i class="fa fa-trash"></i> Delete 
                                         </button>
                                     </form>                                   
 								</td>
